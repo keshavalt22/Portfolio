@@ -1,0 +1,798 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custome style */
+
+html {
+    font-size: 12px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-45 {
+    flex: 0 1 45%;
+}
+
+.flex-30 {
+    flex: 0 1 30%;
+}
+
+.flex-22 {
+    flex: 0 1 18%;
+}
+
+.flex-20 {
+    flex: 0 1 20%;
+}
+
+.flex-38 {
+    flex: 0 1 38%;
+}
+
+.flex-54 {
+    flex: 0 1 54%;
+}
+
+.flex-58 {
+    flex: 0 1 60%;
+}
+
+.padding {
+    padding: 2.6rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 0.7rem 1.7rem;
+    background-color: #F9234D;
+    border-radius: 0.4rem;
+    display: inline-block;
+}
+
+.pink {
+    color: #F9234D;
+}
+
+
+.head {
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.sub-heading {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 1.4rem;
+}
+
+/* Header */
+
+.header {
+    position: absolute;
+    width: 100%;
+    padding: 1.7rem;
+    top: 0;
+    /* background-color: #01122d93; */
+}
+
+.brand {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.brand:hover {
+    color: #F9234D;
+}
+
+.navbar a {
+    font-size: 1.4rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.navbar li {
+    margin-left: 1.8rem;
+}
+
+.navbar li :hover {
+    color: #F9234D;
+}
+
+.navbar .btn {
+    font-size: 0.8rem;
+}
+
+/* Hero */
+
+.hero {
+    background: linear-gradient(to right, rgba(53, 34, 164, 0.6), rgba(53, 37, 174, 0.6)), url(../Projects/hero.jpg) no-repeat;
+    background-size: cover;
+    padding: 8rem 0;
+    font-size: 0;
+}
+
+.hero h1 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.hero .btn {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+}
+
+.hero .text-right {
+    text-align: right;
+}
+
+
+/* section-1 */
+
+.section-1 img {
+    width: 100%;
+    margin-top: 1.7rem;
+}
+
+.section-1 a {
+    color: #ffffff;
+    margin-top: 1.6rem;
+}
+
+.section-1 h2 {
+    color: #01122D;
+}
+
+.section-1 p {
+    color: #696868;
+}
+
+/* section-2 */
+
+.section-2 {
+    background-color: #DFECFF;
+}
+
+.section-2 h2 {
+    color: #01122D;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-2 h3 {
+    color: #01122D;
+}
+
+.section-2 {
+    color: #696868;
+    font-size: 1.2rem;
+}
+
+.section-2 strong {
+    font-weight: 700;
+}
+
+.border {
+    border: 0.2rem dashed #F9234D;
+    padding: 1.2rem;
+}
+
+.section-2 .border {
+    position: relative;
+}
+
+.section-2 .border-a {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #F9234D;
+}
+
+.section-2 .circle {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #DFECFF;
+    position: absolute;
+    top: -1.5rem;
+    left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section-3 */
+
+.section-3 h2 {
+    color: #01122D;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.section-3 .center {
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.section-3 .text-center {
+    text-align: center;
+}
+
+.circle-p {
+    width: 7rem;
+    height: 7rem;
+    background-color: #F9234D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-p small {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1;
+}
+
+.circle-p-2 {
+    width: 7rem;
+    height: 7rem;
+    border: 0.2rem dashed #F9234D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-p-2:hover {
+    background-color: #F9234D;
+    color: white;
+}
+
+.circle-p-2 small:hover {
+    color: white;
+}
+
+.circle-p-2 small {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #F9234D;
+    text-align: center;
+    line-height: 1;
+}
+
+.section-3 .border-left {
+    position: absolute;
+    height: 4rem;
+    top: 8.4rem;
+    left: 3.4rem;
+    border-left: 0.2rem dashed #F9234D;
+}
+
+.section-3 img {
+    width: 100%;
+    border-radius: 0.3rem;
+}
+
+.section-3 .row {
+    position: relative;
+    width: 100%;
+    margin-bottom: 4.3rem;
+    text-align: left;
+}
+
+.section-3 h3 {
+    color: #01122D;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-3 p {
+    color: #696868;
+    font-weight: 700;
+}
+
+.section-3 .btn {
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.butn {
+    text-align: center;
+}
+
+/* section-4 */
+
+.section-4 {
+    background-color: #DFECFF;
+}
+
+.section-4 .flex-20 {
+    text-align: center;
+}
+
+.section-4 .flex-22 {
+    text-align: center;
+    padding: 1.4rem;
+}
+
+.section-4 h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+.section-4 h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.section-4 .idea {
+    background-color: #F9234D;
+    border-radius: 0.6rem;
+    color: #ffffff;
+}
+
+/* section-5 */
+
+.section-5 img {
+    width: 100%;
+    height: 90vh;
+    border-radius: 1rem;
+}
+
+.section-5 {
+    position: relative;
+}
+
+.section-5 .circle-1 {
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-1 i {
+    font-size: 2rem;
+    color: #F9234D;
+}
+
+/* section-6 */
+
+.section-6 {
+    background-color: #DFECFF;
+    padding-bottom: 7rem;
+}
+
+.section-6 h2 {
+    text-align: center;
+    color: #01122D;
+    margin-bottom: 2.4rem;
+}
+
+.section-6 h3 {
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #01122D;
+    /* margin-bottom: 1rem; */
+}
+
+.adaptive-img-50 {
+    width: 100%;
+}
+
+.section-6 p {
+    font-size: 1.1rem;
+    color: #696868;
+    /* margin-bottom: 0.4rem; */
+}
+
+.section-6 a {
+    text-decoration: underline;
+    font-size: 1.4rem;
+    color: #01122D;
+}
+
+.section-6 i:hover {
+    color: #F9234D;
+}
+
+.section-6 .pink {
+    color: #F9234D;
+}
+
+.section-6 .box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #01122D;
+}
+
+/* section-7 */
+
+.section-7 {
+    background-color: #23347B;
+}
+
+.contact {
+    margin: 0 auto;
+}
+
+.section-7 h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.section-7 input {
+    text-align: left;
+    padding: 0.4rem 4rem;
+}
+
+.section-7 .submit-btn {
+    padding: 0.6rem 1.2rem;
+    background-color: #F9234D;
+    color: white;
+    border-radius: 0.6rem;
+    margin-top: 1.2rem;
+}
+
+.contact a {
+    font-size: 1.2rem;
+    color: #a19d9d;
+}
+
+.contact li {
+    margin-right: 1rem;
+}
+
+.contact .follow {
+    margin-left: 2rem;
+}
+
+.follow i {
+    color: #a19d9d;
+    font-size: 1.5rem;
+    margin-right: 1.7rem;
+}
+
+/* footer */
+
+.footer {
+    background-color: #102169;
+    text-align: center;
+    padding: 1.7rem;
+}
+
+.footer small {
+    font-size: 1rem;
+    color: #a19d9d;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-100 {
+        flex: 0 1 100%;
+    }
+
+    .header .brand {
+        font-size: 2rem;
+    }
+
+    .hero .text-right {
+        text-align: center;
+    }
+
+    .hero img {
+        margin-top: 2rem;
+    }
+
+    .section-1 img {
+        width: 50%;
+    }
+
+    .section-2 .border {
+        margin-bottom: 1.6rem;
+    }
+
+    .section-3 img {
+        width: 50%;
+    }
+
+    .section-3 .border-left {
+        display: none;
+    }
+
+    .adaptive-img {
+        width: 100%;
+    }
+
+    .hero .text-right {
+        text-align: center;
+    }
+
+    .section-5 img {
+        height: auto;
+    }
+
+    .section-5 .circle-1 {}
+
+    .circle-p,
+    .circle-p-2 {
+        margin: 0 auto;
+        border-radius: 0.4rem;
+        width: 12rem;
+        height: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .section-6 article {
+        margin-bottom: 2rem;
+    }
+
+    .column {
+        flex-direction: column;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar a {
+        font-size: 1.2rem;
+        color: #a19d9d;
+    }
+
+    .navbar li {
+        margin-left: 0;
+    }
+
+    #toggle:checked~.navbar {
+        display: inline-block;
+    }
+
+    .bars {
+        font-size: 1.8rem;
+        color: #ffffff;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    .navbar {
+        position: absolute;
+        right: 1rem;
+        top: 4rem;
+        background-color: #01122D;
+        padding: 1.6rem;
+        text-align: center;
+        width: 12rem;
+        height: auto;
+    }
+
+    #toggle-1 {
+        display: none;
+    }
+
+    #toggle-1:checked~.navbar-1 {
+        display: inline-block;
+    }
+
+    .navbar-1 {
+        display: none;
+        position: absolute;
+        right: 12rem;
+        bottom: 2rem;
+        background-color: #01122D;
+        padding: 1.6rem;
+        text-align: center;
+        width: 12rem;
+        height: auto;
+    }
+
+    .section-7 {
+        position: relative;
+    }
+
+    .section-7 h4 {
+        display: none;
+    }
+
+    .section-7 .contact {
+        text-align: right;
+        margin: 0;
+    }
+}
